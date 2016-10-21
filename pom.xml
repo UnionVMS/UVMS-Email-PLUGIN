@@ -19,10 +19,10 @@
         <maven.compiler.target>1.7</maven.compiler.target>
 
         <audit.model.version>2.1.0</audit.model.version>
-        <exchange.model.version>2.1.1-SNAPSHOT</exchange.model.version>
+        <exchange.model.version>2.1.1</exchange.model.version>
         <date.classifier>date</date.classifier>
 
-        <release.branch.name>uvms-2.0.6-kili</release.branch.name>
+        <release.branch.name>uvms-2.1.1-kili</release.branch.name>
         <project.scm.id>github</project.scm.id>
         <maven-release-plugin>2.5.3</maven-release-plugin>
     </properties>
