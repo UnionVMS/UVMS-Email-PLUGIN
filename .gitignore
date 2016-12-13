@@ -1,1 +1,3 @@
 target
+/service/src/main/resources/plugin.properties
+*.iml
