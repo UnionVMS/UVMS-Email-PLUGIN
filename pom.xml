@@ -18,6 +18,7 @@
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
 
+        <uvms.common.version>2.0.14-SNAPSHOT</uvms.common.version>
         <audit.model.version>3.0.0-SNAPSHOT</audit.model.version>
         <exchange.model.version>3.0.0-SNAPSHOT</exchange.model.version>
         <date.classifier>date</date.classifier>
