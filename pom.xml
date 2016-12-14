@@ -3,7 +3,7 @@
 
     <groupId>eu.europa.ec.fisheries.uvms.plugins</groupId>
     <artifactId>email</artifactId>
-    <version>2.1.3-SNAPSHOT</version>
+    <version>3.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <description>Plugin template</description>
     
@@ -18,8 +18,8 @@
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
 
-        <audit.model.version>2.1.0</audit.model.version>
-        <exchange.model.version>2.1.1</exchange.model.version>
+        <audit.model.version>3.0.0-SNAPSHOT</audit.model.version>
+        <exchange.model.version>3.0.0-SNAPSHOT</exchange.model.version>
         <date.classifier>date</date.classifier>
 
         <release.branch.name>uvms-2.1.3-morgoth</release.branch.name>
