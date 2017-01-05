@@ -3,7 +3,7 @@
 
     <groupId>eu.europa.ec.fisheries.uvms.plugins</groupId>
     <artifactId>email</artifactId>
-    <version>3.0.0</version>
+    <version>3.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <description>Plugin template</description>
     
@@ -102,7 +102,7 @@
 
     <scm>
         <connection>scm:git:https://github.com/UnionVMS/UVMS-Email-PLUGIN.git</connection>
-      <tag>email-3.0.0</tag>
+      <tag>HEAD</tag>
   </scm>
     
     <build>
