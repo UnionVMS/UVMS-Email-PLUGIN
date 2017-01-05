@@ -18,12 +18,12 @@
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
 
-        <uvms.common.version>2.0.14-SNAPSHOT</uvms.common.version>
-        <audit.model.version>3.0.0-SNAPSHOT</audit.model.version>
-        <exchange.model.version>3.0.0-SNAPSHOT</exchange.model.version>
+        <uvms.common.version>2.0.14</uvms.common.version>
+        <audit.model.version>3.0.0</audit.model.version>
+        <exchange.model.version>3.0.0</exchange.model.version>
         <date.classifier>date</date.classifier>
 
-        <release.branch.name>uvms-2.1.3-morgoth</release.branch.name>
+        <release.branch.name>uvms-3.0.0-boba-fett</release.branch.name>
         <project.scm.id>github</project.scm.id>
         <maven-release-plugin>2.5.3</maven-release-plugin>
     </properties>
