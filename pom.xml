@@ -23,7 +23,7 @@
         <exchange.model.version>3.0.0</exchange.model.version>
         <date.classifier>date</date.classifier>
 
-        <release.branch.name>uvms-3.0.1-C3PO</release.branch.name>
+        <release.branch.name>uvms-3.0.3-C3PO</release.branch.name>
         <project.scm.id>github</project.scm.id>
         <maven-release-plugin>2.5.3</maven-release-plugin>
     </properties>
