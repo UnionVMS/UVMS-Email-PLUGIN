@@ -63,7 +63,7 @@ public class PluginMessageProducer {
             getProducer(session, requestMessage.getJMSReplyTo()).send(message);
 
         } catch (JMSException e) {
-            LOG.error("[ Error when sending jms message. ] {}", e.getMessage());
+            LOG.error("[ Error when sending jms message. {}] {}",text, e.getMessage());
             throw new JMSException(e.getMessage());
         } finally {
         	JMSUtils.disconnectQueue(connection);
@@ -92,7 +92,7 @@ public class PluginMessageProducer {
 
             return message.getJMSMessageID();
         } catch (JMSException e) {
-            LOG.error("[ Error when sending data source message. ] {}", e.getMessage());
+            LOG.error("[ Error when sending data source message. {}] {}",text, e.getMessage());
             throw new JMSException(e.getMessage());
         } finally {
         	JMSUtils.disconnectQueue(connection);
@@ -115,7 +115,7 @@ public class PluginMessageProducer {
 
             return message.getJMSMessageID();
         } catch (JMSException e) {
-            LOG.error("[ Error when sending message. ] {0}", e.getMessage());
+            LOG.error("[ Error when sending message. {}] {}",text, e.getMessage());
             throw new JMSException(e.getMessage());
         } finally {
         	JMSUtils.disconnectQueue(connection);

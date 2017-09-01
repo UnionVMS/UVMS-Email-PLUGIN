@@ -17,7 +17,7 @@
     <properties>
         <uvms.common.version>2.0.27</uvms.common.version>
         <audit.model.version>3.0.0</audit.model.version>
-        <exchange.model.version>3.0.6-SNAPSHOT</exchange.model.version>
+        <exchange.model.version>3.0.7</exchange.model.version>
         <date.classifier>date</date.classifier>
         <release.branch.name>uvms-3.0.3-C3PO</release.branch.name>
         <project.scm.id>github</project.scm.id>
