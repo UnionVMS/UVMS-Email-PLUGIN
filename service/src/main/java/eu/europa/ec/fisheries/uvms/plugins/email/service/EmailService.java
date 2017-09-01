@@ -11,10 +11,7 @@ copy of the GNU General Public License along with the IFDM Suite. If not, see <h
  */
 package eu.europa.ec.fisheries.uvms.plugins.email.service;
 
-import eu.europa.ec.fisheries.schema.exchange.plugin.types.v1.EmailType;
-import eu.europa.ec.fisheries.uvms.plugins.email.exception.PluginException;
 import javax.annotation.Resource;
-import javax.ejb.Asynchronous;
 import javax.ejb.LocalBean;
 import javax.ejb.Stateless;
 import javax.mail.Address;
@@ -24,8 +21,12 @@ import javax.mail.Session;
 import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import eu.europa.ec.fisheries.schema.exchange.plugin.types.v1.EmailType;
+import eu.europa.ec.fisheries.uvms.plugins.email.exception.PluginException;
 
 /**
  **/
